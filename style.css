@@ -1,0 +1,127 @@
+
+
+* {
+  margin: 5;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+
+body {
+    
+    min-height: 100vh;      
+    margin: 0;  
+    justify-content: center ;         
+    text-align: center;
+    align-items: center;
+    display: flex;
+      flex-direction: column;
+    background: radial-gradient(rgb(251, 251, 249), rgb(206, 234, 94), rgb(246, 50, 6));
+    background-attachment: fixed; 
+}
+
+
+
+h1 {
+    
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+  
+  
+}
+
+
+.pic {
+   width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  
+
+  
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.gif {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.comp {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+table caption {
+  color: rgb(225, 141, 23);
+  text-align: center;
+  background-color: rgb(56, 152, 226);
+}
+table{
+    text-align: center;
+   
+}
+
+table thead {
+    color: brown;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table tbody {
+    color: blueviolet;
+    background-color: beige;
+
+}
+#Education h2{
+
+     margin: 0;
+     padding: 10;
+    font-family: "Times New Roman", Times, serif;
+    color: blue;
+    font-weight: 900;
+  
+    text-shadow:2px 2px ;
+     
+
+    
+}
+
+#Education h2 span {
+    
+     
+        text-shadow: 1cm;
+         box-sizing:content-box;
+  
+         
+
+}
+
+.last-container{
+ 
+  padding: 70px 0 50px;
+  margin-right: 15px;
+
+  display:block;
+  flex-wrap:nowrap;
+  box-sizing:content-box;
+}
